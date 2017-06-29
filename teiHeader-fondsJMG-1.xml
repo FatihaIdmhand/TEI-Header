@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Collection José Mora Guarnido</title>
+                <author key="Mora Guarnido, José (1894-1968)">José Mora Guarnido</author>
+                
+                <editor key="FI" role="directrice_recherche">Fatiha Idmhand</editor>
+                <editor key="LP" role="archiviste">Laurent Passion</editor>
+                <principal>
+                    <persName>
+                        <forename>Fatiha</forename>
+                        <surname>Idmhand</surname>
+                        <affiliation>
+                            <orgName type="acronym">ITEM</orgName>
+                            <orgName type="acronym">CNRS</orgName>
+                            <orgName type="acronym">ENS</orgName>
+                            <roleName>Directrice de recherche</roleName>
+                            <roleName>Responsable d’ANR</roleName>
+                        </affiliation>
+                    </persName>
+                </principal>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>(le nom de l'édition électronique)Projet ANR-CHispa</edition>
+                <respStmt >
+                    <name xml:id="FI" ref="adresse electronique">Fatiha Idmhand</name>
+                    <resp>A remplir</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="LP" ref="adresse electronique">Laurent Passion</name>
+                    <resp>responsable de ?</resp>
+                </respStmt>
+                <respStmt>
+                    <name xml:id="NA" ref="nathalie.arlin@ens-lyon.fr">Nathalie Arlin</name>
+                    <resp>structuration des données en xml/tei</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <!--<authority>Projet ANR-CHispa, Fatiha Idmhand Institut des textes et manuscrits
+                    modernes, CNRS-ENS</authority>-->
+                
+                <authority>le nom par exemple du laboratoire</authority>
+                <publisher>le nom de l'institution</publisher>
+                <pubPlace>l'adresse de l'institution</pubPlace>
+                
+                
+                <!--  Obligatoire : URI pérenne, DOI, handle attribué par Isidore
+                 <dc:identifier>   -->
+                <idno>http://...</idno>               
+                
+                <!-- Attention, cette date correspond à la date de publication de la ressource électronique <dc:issued> et non à la date de création qui se trouve dans <profileDesc> <dc:date>  -->            
+                <date when="2016">2016 </date>
+                
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/3.0/fr/">Fonds
+                        ALCIDES GIRALDI Archives José Mora Guarnido. &#xD; Licence Creative Commons
+                        CC-BY-NC-SA</licence>
+                </availability>
+            </publicationStmt>
+            
+            <notesStmt>
+                <!--  non obligatoire mais recommandé et ici on met ton paragraphe mis au départ dans sourceDesc
+             <dc:description>     -->                
+                <note type="abstract">
+                    Les archives et manuscrits de Carlos Denis Molina appartiennent au fonds de
+                    Alcides Giraldi. Avec le soutien de l'Agence Nationale de la Recherche (ANR JC
+                    CHispa), nous publions les notices décrivant tous les documents du Fonds Carlos
+                    Denis Molina. Images numérisées, transcriptions des textes et commentaires
+                    scientifiques nourrissent petit à petit les notices en ligne.
+                </note>
+                
+            </notesStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Lille</settlement>
+                        <repository>SCD Lille 3</repository>
+                        <collection>fonds Alcides Giraldi - Archives José Mora Guarnido</collection>
+                        <idno>sa cote</idno>
+                    </msIdentifier>
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Les archives et manuscrits de José Mora Guarnido appartiennent au fonds de
+                    Alcides Giraldi. Avec le soutien de l'Agence Nationale de la Recherche (ANR JC
+                    CHispa), nous publions sur cette plateforme les documents du Fonds José Mora
+                    Guarnido. Images numérisées, transcriptions des textes et commentaires
+                    scientifiques nourrissent petit à petit les notices en ligne. </p>
+                <p>L'objectif du projet CHispa est la Création d'outils pour l'exploitation
+                    numérique de corpus de manuscrits hispaniques. Il s'agit, à partir des archives
+                    de l’écrivain espagnol José Mora Guarnido (1894-1967) et du dramaturge uruguayen
+                    Carlos Denis Molina (1916-1983), de conjuguer l'action de préservation et de
+                    sauvegarde de manuscrits de langue espagnole avec le travail critico-génétique
+                    et éditorial. Le but est de valoriser des sources inédites destinées à
+                    documenter la recherche internationale sur la circulation de la pensée durant la
+                    première moitié du vingtième siècle. Parallèlement, le projet ouvre de nombreux
+                    espaces de formation pour des étudiants issus de domaines universitaires
+                    traditionnellement éloignés les uns des autres grâce à une équipe
+                    transdisciplinaire. CHispa est un programme tourné vers les Digital Humanities
+                    ou « humanités numériques » parce qu'il réunit, autour d'un même objet, des
+                    chercheurs et des professionnels issus de différents domaines et composantes
+                    (sciences de l'information et de la communication, de l'informatique, du web, et
+                    des sciences humaines et sociales) et qu'il est tourné vers la diffusion
+                    (numérique) de la recherche et des savoirs. </p>
+            </projectDesc>
+            <appInfo>
+                <!--fournit des informations sur une application qui a été utilisée pour le traitement du document.
+                    J'ai mis une version d'oxygen, tu modifies à ta convenance -->                
+                <application ident="oxygen" version="17.1">
+                    <label>Oxygen</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+<!--                plutôt respecter la norme ISO 639-2b sur 3 caractères : spa - fre - eng - por  -->
+                <language ident="es">espagnol</language>
+                <language ident="fr">français</language>
+                <language ident="en">anglais</language>
+                <language ident="pt">portugais</language>
+            </langUsage>
+            
+ <!--  date de la création texte - utiliser ISO 8601 année sur 4 chiffres
+          <dc:date>  -->  
+            <creation>
+                <date from="1900" to="2000">1900-2000</date>
+            </creation>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#FI" when="2016-12-05">révision </change>
+            <change who="#LP" when="2016-12-08">révision de l'encodage</change>
+            <change who="#NA" when="2017-01-20">structuration des données en tei</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <TEI xml:id="MyTextNumber1">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                    <author/>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <p/>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="MyTextNumber2">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                    <author/>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <p/>
+                </div>
+            </body>
+        </text>
+    </TEI>
+
+</teiCorpus>

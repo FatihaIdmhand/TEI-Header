@@ -43,14 +43,14 @@
                 <!--<authority>Projet ANR-CHispa, Fatiha Idmhand Institut des textes et manuscrits
                     modernes, CNRS-ENS</authority>-->
                 
-                <authority>le nom par exemple du laboratoire</authority>
-                <publisher>le nom de l'institution</publisher>
-                <pubPlace>l'adresse de l'institution</pubPlace>
+                <authority>Institut des Textes et Manuscritis Modernes - Archivos(ITEM, UMR 8132)</authority>
+                <publisher>Projet CHispa ANR-13-JSH3-0006 (2014-2017) </publisher>
+                <pubPlace>Agence Nationale de la Recherche, Paris</pubPlace>
                 
                 
                 <!--  Obligatoire : URI pérenne, DOI, handle attribué par Isidore
                  <dc:identifier>   -->
-                <idno>http://...</idno>               
+                <idno>http://chispa.hypotheses.org/</idno>               
                 
                 <!-- Attention, cette date correspond à la date de publication de la ressource électronique <dc:issued> et non à la date de création qui se trouve dans <profileDesc> <dc:date>  -->            
                 <date when="2016">2016 </date>
@@ -66,11 +66,9 @@
                 <!--  non obligatoire mais recommandé et ici on met ton paragraphe mis au départ dans sourceDesc
              <dc:description>     -->                
                 <note type="abstract">
-                    Les archives et manuscrits de Carlos Denis Molina appartiennent au fonds de
-                    Alcides Giraldi. Avec le soutien de l'Agence Nationale de la Recherche (ANR JC
-                    CHispa), nous publions les notices décrivant tous les documents du Fonds Carlos
-                    Denis Molina. Images numérisées, transcriptions des textes et commentaires
-                    scientifiques nourrissent petit à petit les notices en ligne.
+                    Les archives et manuscrits de José Mora Guarnido appartiennent au fonds de
+                    Alcides Giraldi. Avec le soutien de l'Agence Nationale de la Recherche (Projet ANR-CHispa), nous éditons ces documents: images numérisées, transcriptions des textes et analyses
+                    scientifiques.
                 </note>
                 
             </notesStmt>
